@@ -5,7 +5,7 @@ Name Name:
   uri         : "http://gustavosarturi.github.io"
   email       : "gustavo.sarturi@ufpr.br"
   bio         : "This is the first name."
-  avatar      : "bio-photo-2.jpg"
+  avatar      : "p1.jpg"
   twitter     : "name"
   google_plus : "Name"
 
@@ -14,6 +14,6 @@ Name2 Name2:
   uri         : "http://gustavosarturi.github.io"
   email       : "gustavo.sarturi@ufpr.br"
   bio         : "This is the first name."
-  avatar      : "bio-photo-2.jpg"
+  avatar      : "p1.jpg"
   twitter     : "name"
 google_plus : "Name"
