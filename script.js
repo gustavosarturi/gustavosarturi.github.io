@@ -43,10 +43,14 @@ const translations = {
         proj6_desc: "Estruturas em pandas que se comportam como cubos de planejamento: linhas calculadas a partir de outras linhas, colunas por mês e totalizações.",
         timeline_title: "Trajetória",
         job1_title: "Product, Control & Strategy Analyst",
+        job1_impact: "Gestão estratégica de pricing para portfólio de Seguros e Serviços, com foco em maximização de margem.",
         job2_title: "Management Control Analyst (Controlling / FP&A / M&A)",
+        job2_impact: "Redução de 40% no tempo de fechamento mensal e eliminação de custos de outsourcing via automação em Python.",
         job3_title: "Management Control Intern",
+        job3_impact: "Suporte analítico à diretoria para definição de metas e acompanhamento de KPIs regionais.",
         job4_title: "Industrial Logistics Intern",
-        footer_tagline: "Building financial tooling, decision engines, and automation that scales."
+        job4_impact: "Aplicação de métodos de qualidade para otimização de fluxo de materiais na linha de produção.",
+        footer_tagline: "Construindo as ferramentas financeiras do amanhã."
     },
     en: {
         nav_about: "About",
@@ -92,9 +96,13 @@ const translations = {
         proj6_desc: "Pandas structures that behave like planning cubes: lines calculated from other lines, columns by month, and aggregations.",
         timeline_title: "Trajectory",
         job1_title: "Product, Control & Strategy Analyst",
+        job1_impact: "Strategic pricing and portfolio management for Insurance & Services, focused on margin maximization.",
         job2_title: "Management Control Analyst (Controlling / FP&A / M&A)",
+        job2_impact: "Reduced monthly closing time by 40% and eliminated outsourcing costs through Python automation.",
         job3_title: "Management Control Intern",
+        job3_impact: "Analytical support to the board for target setting and regional KPI tracking.",
         job4_title: "Industrial Logistics Intern",
+        job4_impact: "Applied quality methods to optimize material flow in the production line.",
         footer_tagline: "Building financial tooling, decision engines, and automation that scales."
     }
 };
