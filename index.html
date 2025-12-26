@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gustavo Sarturi | Industrial Mathematician & SaaS Builder</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Plus+Jakarta+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="background-globes">
+        <div class="globe globe-1"></div>
+        <div class="globe globe-2"></div>
+    </div>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">GS.</a>
+            <div class="nav-links">
+                <a href="#about" data-i18n="nav_about">Sobre</a>
+                <a href="#saas" data-i18n="nav_saas">SaaS & Tech</a>
+                <a href="#experience" data-i18n="nav_experience">Experiência</a>
+                <a href="#contact" data-i18n="nav_contact">Contato</a>
+                <button id="lang-toggle" class="lang-btn">
+                    <span class="active">PT</span> / <span>EN</span>
+                </button>
+            </div>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="badge" data-i18n="hero_badge">Industrial Mathematician & Finance Strategist</span>
+                <h1 data-i18n="hero_title">Transformando dados financeiros em <span class="gradient-text">Soluções SaaS</span> de alto impacto.</h1>
+                <p data-i18n="hero_subtitle">Especialista em unir Matemática Industrial, Finanças Corporativas e Engenharia de Software para automatizar decisões e maximizar lucros.</p>
+                <div class="hero-btns">
+                    <a href="#contact" class="btn btn-primary" data-i18n="btn_contact">Vamos Conversar</a>
+                    <a href="#saas" class="btn btn-outline" data-i18n="btn_work">Ver Portfolio</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/gustavosarturi" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:gh.sarturi@gmail.com"><i class="fas fa-envelope"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-wrapper">
+                    <img src="assets/profile.jpg" alt="Gustavo Sarturi">
+                    <div class="floating-card card-1">
+                        <i class="fas fa-chart-line"></i>
+                        <div>
+                            <span data-i18n="stat_profit">Otimização de Lucro</span>
+                            <strong>Pricing Intel</strong>
+                        </div>
+                    </div>
+                    <div class="floating-card card-2">
+                        <i class="fas fa-code"></i>
+                        <div>
+                            <span data-i18n="stat_auto">Automação Python</span>
+                            <strong>100% In-house</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="section about-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-i18n="about_title">O "Crossover" Perfeito</h2>
+                <p data-i18n="about_subtitle">Não sou apenas um analista financeiro. Eu construo as ferramentas que o financeiro precisa.</p>
+            </div>
+            <div class="grid-3">
+                <div class="feature-card">
+                    <div class="icon-box"><i class="fas fa-brain"></i></div>
+                    <h3 data-i18n="skill_math_title">Matemática Industrial</h3>
+                    <p data-i18n="skill_math_desc">Background sólido na UFPR em modelagem e otimização. Eu vejo os números por trás do negócio.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon-box"><i class="fas fa-chart-pie"></i></div>
+                    <h3 data-i18n="skill_finance_title">Finanças Corporativas</h3>
+                    <p data-i18n="skill_finance_desc">MBA e experiência real em FP&A, Pricing e Budgeting no setor automotivo (Mobilize/Renault).</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon-box"><i class="fas fa-laptop-code"></i></div>
+                    <h3 data-i18n="skill_tech_title">Engenharia de Soluções</h3>
+                    <p data-i18n="skill_tech_desc">Desenvolvedor Python & Streamlit. Eu não apenas peço o software, eu o construo para resolver a dor.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="saas" class="section saas-section">
+        <div class="container">
+            <div class="panes-layout">
+                <div class="pane-text">
+                    <span class="tag">Highlight Project</span>
+                    <h2 data-i18n="saas_title">De Planilhas para SaaS Interno</h2>
+                    <p data-i18n="saas_desc">Identifiquei que a terceirização de inteligência de preços drenava recursos e aumentava o lead-time. A solução? Desenvolver um sistema proprietário.</p>
+                    
+                    <ul class="check-list">
+                        <li data-i18n="saas_point_1">Desenvolvimento Full-stack (Python/Streamlit) para precificação.</li>
+                        <li data-i18n="saas_point_2">Eliminação de custos de outsourcing.</li>
+                        <li data-i18n="saas_point_3">Automação de fechamento mensal reduzindo risco operacional.</li>
+                        <li data-i18n="saas_point_4">Modelos matemáticos para simulação de cenários e forecasting.</li>
+                    </ul>
+
+                    <div class="tech-stack">
+                        <span>Python</span>
+                        <span>Streamlit</span>
+                        <span>Pandas</span>
+                        <span>Power BI</span>
+                        <span>SQL</span>
+                    </div>
+                </div>
+                <div class="pane-visual">
+                    <!-- Abstraction of a dashboard interface -->
+                    <div class="dashboard-preview">
+                        <div class="dash-header">
+                            <div class="dots"><span></span><span></span><span></span></div>
+                            <div class="dash-search"></div>
+                        </div>
+                        <div class="dash-body">
+                            <div class="dash-block full"></div>
+                            <div class="dash-row">
+                                <div class="dash-block half"></div>
+                                <div class="dash-block half"></div>
+                            </div>
+                            <div class="dash-block full graph"></div>
+                        </div>
+                        <div class="overlay-msg">
+                            <i class="fas fa-rocket"></i>
+                            <h4 data-i18n="saas_overlay">Proprietary Pricing Engine</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="section timeline-section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="timeline_title">Trajetória Profissional</h2>
+            <div class="timeline">
+                <!-- Item 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="date">2025 – Present</span>
+                        <h3 data-i18n="job1_title">Product, Control & Strategy Analyst</h3>
+                        <h4 class="company">Mobilize Financial Services</h4>
+                        <p data-i18n="job1_desc">Liderança estratégica de portfólio de Seguros e Serviços. Gestão do ciclo de vida do produto, pricing e inteligência de dados.</p>
+                    </div>
+                </div>
+                <!-- Item 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="date">2022 – 2025</span>
+                        <h3 data-i18n="job2_title">Management Control Analyst (FP&A)</h3>
+                        <h4 class="company">Mobilize Financial Services</h4>
+                        <p data-i18n="job2_desc">Controlling e Performance Comercial. Desenvolvimento de sistema de pricing in-house (Python) e automação de fechamentos.</p>
+                    </div>
+                </div>
+                <!-- Item 3 -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="date">2021 – 2022</span>
+                        <h3 data-i18n="job3_title">Management Control Intern</h3>
+                        <h4 class="company">Mobilize Financial Services</h4>
+                        <p data-i18n="job3_desc">Suporte a reporte gerencial e KPIs financeiros para a diretoria.</p>
+                    </div>
+                </div>
+                <!-- Item 4 -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="date">2019 – 2021</span>
+                        <h3 data-i18n="job4_title">Industrial Logistics Intern</h3>
+                        <h4 class="company">Renault do Brasil</h4>
+                        <p data-i18n="job4_desc">Gestão de fluxo de materiais e controle de estoque na linha de produção.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="footer">
+        <div class="container footer-content">
+            <div class="footer-left">
+                <h2>GS.</h2>
+                <p data-i18n="footer_tagline">Building the financial tools of tomorrow.</p>
+            </div>
+            <div class="footer-contact">
+                <p><i class="fas fa-envelope"></i> gh.sarturi@gmail.com</p>
+                <p><i class="fas fa-phone"></i> +55 (41) 99734-5685</p>
+                <p><i class="fab fa-linkedin"></i> linkedin.com/in/gustavosarturi</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Gustavo Sarturi. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
